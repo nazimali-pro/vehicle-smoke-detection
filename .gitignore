@@ -1,0 +1,44 @@
+# Environments & Virtual Envs
+venv/
+.env
+env/
+ENV/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# YOLO & Model checkpoints / Base pre-trained weights
+# Custom models (smoke.pt & number_plate.pt are tracked)
+yolov8*.pt
+yolo11*.pt
+
+# Detection output folders & temp storage
+Application_Backend/detections/
+detections/
+*.log
+
+# Large local dataset (12,000+ test images)
+images/
+
+# Flutter / Dart
+flutter_application_1/.dart_tool/
+flutter_application_1/build/
+flutter_application_1/.flutter-plugins
+flutter_application_1/.flutter-plugins-dependencies
+flutter_application_1/.packages
+flutter_application_1/.pub-cache/
+flutter_application_1/.pub/
+flutter_application_1/pubspec.lock
+
+# IDE & OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store
